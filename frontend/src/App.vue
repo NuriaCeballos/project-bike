@@ -2,8 +2,9 @@
   <div id="nav">
     <router-link to="/">Hola</router-link> |
     <router-link to="/about">Adios</router-link>
+    <router-view/>
   </div>
-  <router-view/>
+  
 </template>
 
 <style lang="scss">
