@@ -1,7 +1,10 @@
 <template>
   <div id="nav">
-    <router-link to="/">Hola</router-link> |
-    <router-link to="/about">Adios</router-link>
+    <router-link to="/">Home</router-link> |
+    <router-link to="/propuestas">Propuestas</router-link> |  
+    <router-link to="/artbike">ArtBike</router-link> |
+    <router-link to="/infobike">InfoBike</router-link> |
+    <router-link to="/login">Iniciar Sesión</router-link> |
     <router-view/>
   </div>
   
