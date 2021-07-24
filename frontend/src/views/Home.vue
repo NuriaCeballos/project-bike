@@ -1,16 +1,16 @@
 <template>
   <div class="home">
-    <HeaderComponent/>
+    <Slider/>
   </div>
 </template>
 
 <script>
 
-import HeaderComponent from "@/components/HeaderComponent.vue"
+import Slider from "@/components/Slider.vue"
 export default {
   name: 'Home',
   components: {
-    HeaderComponent
+    Slider
   }
 }
 </script>

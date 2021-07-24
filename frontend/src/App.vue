@@ -13,6 +13,9 @@
           <a class="nav-link active" aria-current="/home"><router-link to="/">Home</router-link></a>
         </li>
         <li class="nav-item">
+          <a class="nav-link"><router-link to="/propuestas">Propuestas</router-link></a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link"><router-link to="/artbike">ArtBike</router-link></a>
         </li>
         <li class="nav-item">
