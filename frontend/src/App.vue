@@ -1,12 +1,43 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/propuestas">Propuestas</router-link> |  
-    <router-link to="/artbike">ArtBike</router-link> |
-    <router-link to="/infobike">InfoBike</router-link> |
-    <router-link to="/login">Iniciar Sesión</router-link> |
-    <router-view/>
+ 
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><strong>Project-Bike</strong></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="/home"><router-link to="/">Home</router-link></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><router-link to="/artbike">ArtBike</router-link></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><router-link to="/infobike">InfoBike</router-link></a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link"><router-link to="/login">Iniciar Sesión</router-link></a>
+        </li>
+      
+      </ul>
+    </div>
   </div>
+</nav>
+<router-view/>
+  </div>
+
+
+   
+
+
+
+
+
+
+
   
 </template>
 
