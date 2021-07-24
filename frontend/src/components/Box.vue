@@ -1,15 +1,7 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-     
-      <a href="" target="" rel=""></a>.
-    </p>
-    <h3>Componente</h3>
     
- 
-   
-   
       
   </div>
 </template>
