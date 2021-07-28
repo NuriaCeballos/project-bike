@@ -1,5 +1,7 @@
 <template>
+<div class ="rutas">
   <RutasComponent/>
+  </div>
 </template>
 
 <script>

@@ -28,8 +28,7 @@ export default {
   },
   setup(){
     let texto ="Iniciar Sesión"
-    let email = ref ("")
-    let password =ref ("")
+   
     return{
       texto
     }

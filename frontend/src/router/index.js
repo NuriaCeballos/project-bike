@@ -4,6 +4,10 @@ import Propuestas from '../views/Propuestas.vue'
 import Artbike from '../views/Artbike.vue'
 import Infobike from '../views/Infobike.vue'
 import Login from '../views/Login.vue'
+import Rutas from '../views/Rutas.vue'
+import Comprar from '../views/Comprar.vue'
+import Recuerdos from '../views/Recuerdos.vue'
+import Arte from '../views/Arte.vue'
 
 const routes = [
   {
@@ -30,6 +34,26 @@ const routes = [
     path: '/login',
     name: 'login',
     component: Login
+  },
+  {
+    path: '/comprar',
+    name: 'comprar',
+    component: Comprar
+  },
+  {
+    path: '/recuerdos',
+    name: 'recuerdos',
+    component: Recuerdos
+  },
+  {
+    path: '/arte',
+    name: 'arte',
+    component: Arte
+  },
+  {
+    path: '/rutas',
+    name: 'rutas',
+    component: Rutas
   },
   
   
