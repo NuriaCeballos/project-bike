@@ -1,7 +1,9 @@
 <template>
 <div class="container">
-    <div class ="row photo">
-        <h1>Aqui van las fotos</h1>
+    <div class ="row">
+      <div class="photo">
+        <h1 class=" title">Aqui van las fotos</h1>
+        </div>
     </div>
     
 </div>
@@ -11,7 +13,7 @@
 <script>
 export default {
     
-  name: 'RutasComponent',
+  name: 'PropuestasComponent',
   props: {
       setup() {
     return {};
@@ -23,5 +25,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.photo{
+  
+  background: chartreuse;
+}
 
 </style>

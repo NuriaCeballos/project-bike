@@ -1,16 +1,16 @@
 <template>
 <div class ="rutas">
-  <RutasComponent/>
+  <PropuestasComponent/>
   </div>
 </template>
 
 <script>
-import RutasComponent from '@/components/RutasComponent.vue'
+import PropuestasComponent from '@/components/PropuestasComponent.vue'
 
 export default {
      name: "Rutas",
     components: {
-    RutasComponent
+    PropuestasComponent
   },
  
 }
