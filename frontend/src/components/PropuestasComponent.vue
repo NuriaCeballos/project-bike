@@ -14,14 +14,14 @@
         </div>
     </div>
     <div class="titulo">
-      <h2>Titulo</h2>
+      <h2>Título</h2>
     </div>
     <div class="textarea">
       <textarea>
         Descripción
       </textarea>
     </div>
-    <div>
+    <div class="comentarios">
        <a href="#">Comentarios</a>
     </div>
 </div>
@@ -66,8 +66,22 @@ export default {
 .titulo h2{
   background: darkgoldenrod;
 }
-.textarea textarea{
+.textarea{
   display: flex;
   justify-content: center;
 }
+.textarea textarea{
+  width: 240vh;
+  height: 40vh;
+}
+.comentarios{
+  display: flex;
+  
+}
+.comentarios a{
+  background:crimson;
+  padding: 2vh;
+  margin-bottom:6vh;
+}
+
 </style>

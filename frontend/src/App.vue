@@ -2,7 +2,7 @@
   <div id="nav">
  
      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand" href="#"><strong>Project-Bike</strong></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,10 +24,11 @@
           <li class="nav-item">
           <a class="nav-link"><router-link to="/login">Iniciar Sesión</router-link></a>
         </li>
-      
       </ul>
-        
     </div>
+         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+       <button class="btn btn-primary me-md-2" type="button"><a><router-link to="/login">Iniciar Sesión</router-link></a></button>
+       </div>
   </div>
 </nav>
 <router-view/>
@@ -79,37 +80,26 @@
 </footer>
   </div>
 
-
-   
-
-
-
-
-
-
-
-  
 </template>
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+.button{
+  display: flex;
+  justify-content: flex-end;
+  
+ 
 }
+.button button{
+   background: orangered;
+   border-radius: 20px;
+   border:black solid 3px;
+   margin-left:50vh;
+   
+
+}
+
 </style>

@@ -1,5 +1,6 @@
 <template>
 <div class ="comprar">
+  <h1>Comprar</h1>
   <PropuestasComponent/>
   </div>
 </template>
