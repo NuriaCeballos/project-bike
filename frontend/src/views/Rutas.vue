@@ -1,6 +1,8 @@
 <template>
 <div class ="rutas">
+  <h1>Rutas</h1>
   <PropuestasComponent/>
+  
   </div>
 </template>
 

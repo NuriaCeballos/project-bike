@@ -45,50 +45,6 @@
           </div>
         </div>
       </div>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-xl-4 col-md-12 col-sm-12 mb-4 pt-5">
-            <div class="card" style="width: 25rem">
-              <img src="" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Lista de usuarios</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary button">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-xl-4 col-md-12 col-sm-12 mb-4 pt-5">
-            <div class="card" style="width: 25rem">
-              <img src="" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Art-Bike</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="/arte" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-xl-4 col-md-12 col-sm-12 mb-4 pt-5">
-            <div class="card" style="width: 25rem">
-              <img src="" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Blog bike</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </template>

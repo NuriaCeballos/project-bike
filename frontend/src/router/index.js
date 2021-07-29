@@ -7,7 +7,7 @@ import Login from '../views/Login.vue'
 import Rutas from '../views/Rutas.vue'
 import Comprar from '../views/Comprar.vue'
 import Recuerdos from '../views/Recuerdos.vue'
-import Arte from '../views/Arte.vue'
+
 
 const routes = [
   {
@@ -46,16 +46,10 @@ const routes = [
     component: Recuerdos
   },
   {
-    path: '/arte',
-    name: 'arte',
-    component: Arte
-  },
-  {
     path: '/rutas',
     name: 'rutas',
     component: Rutas
-  },
-  
+  }, 
   
 ]
 
