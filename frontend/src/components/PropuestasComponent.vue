@@ -13,10 +13,10 @@
         <h1 class=" title">Aqui van las fotos</h1>
         </div>
     </div>
-    <div>
+    <div class="titulo">
       <h2>Titulo</h2>
     </div>
-    <div>
+    <div class="textarea">
       <textarea>
         Descripción
       </textarea>
@@ -48,5 +48,26 @@ export default {
   
   background: chartreuse;
 }
-
+.nickname{
+  display:flex;
+  justify-content: flex-end;
+  
+  
+  
+}
+.nickname h2{
+  background: chocolate;
+  
+}
+.titulo{
+  display: flex;
+  
+}
+.titulo h2{
+  background: darkgoldenrod;
+}
+.textarea textarea{
+  display: flex;
+  justify-content: center;
+}
 </style>
