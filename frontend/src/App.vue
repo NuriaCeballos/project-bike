@@ -26,9 +26,7 @@
         </li>
       </ul>
     </div>
-         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-       <button class="btn btn-primary me-md-2" type="button"><a><router-link to="/login">Iniciar Sesión</router-link></a></button>
-       </div>
+       <Button/>
   </div>
 </nav>
 <router-view/>
@@ -81,6 +79,14 @@
   </div>
 
 </template>
+<script>
+import Button from '@/components/Button.vue'
+export default {
+  components:{
+    Button
+  }
+}
+</script>
 
 <style lang="scss">
 #app {

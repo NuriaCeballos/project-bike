@@ -7,6 +7,7 @@ import Login from '../views/Login.vue'
 import Rutas from '../views/Rutas.vue'
 import Comprar from '../views/Comprar.vue'
 import Recuerdos from '../views/Recuerdos.vue'
+import Boton from '../views/Recuerdos.vue'
 
 
 const routes = [
@@ -50,6 +51,7 @@ const routes = [
     name: 'rutas',
     component: Rutas
   }, 
+  
   
 ]
 
