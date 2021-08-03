@@ -2,11 +2,15 @@
 <template>
 
 <div>
+
       <img v-for= "image in images" :key="image.id" :src="image.url" class="d-block w-100" :alt="image.name" width="200px">
+    
+      
     <pre>
       {{images}}
     </pre>
     
+
 </div>
 
 </template>

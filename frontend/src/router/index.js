@@ -7,7 +7,7 @@ import Login from '../views/Login.vue'
 import Rutas from '../views/Rutas.vue'
 import Comprar from '../views/Comprar.vue'
 import Recuerdos from '../views/Recuerdos.vue'
-import Boton from '../views/Recuerdos.vue'
+import Storage from '../views/Storage.vue'
 
 
 const routes = [
@@ -50,6 +50,11 @@ const routes = [
     path: '/rutas',
     name: 'rutas',
     component: Rutas
+  }, 
+  {
+    path: '/storage',
+    name: 'storage',
+    component: Storage
   }, 
   
   

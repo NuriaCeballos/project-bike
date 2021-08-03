@@ -1,6 +1,7 @@
 <template>
 <div class ="comprar">
   <h1>Comprar</h1>
+  
   <PropuestasComponent/>
   </div>
 </template>
@@ -11,7 +12,8 @@ import PropuestasComponent from '@/components/PropuestasComponent.vue'
 export default {
      name: "Comprar",
     components: {
-    PropuestasComponent
+    PropuestasComponent,
+    
   },
  
 }

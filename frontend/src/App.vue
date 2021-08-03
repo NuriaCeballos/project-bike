@@ -24,6 +24,9 @@
           <li class="nav-item">
           <a class="nav-link"><router-link to="/login">Iniciar Sesión</router-link></a>
         </li>
+         <li class="nav-item">
+          <a class="nav-link"><router-link to="/storage">Storage</router-link></a>
+        </li>
       </ul>
     </div>
        <Button/>
