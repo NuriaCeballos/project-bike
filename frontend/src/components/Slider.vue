@@ -1,14 +1,30 @@
 
 <template>
 
-<div>
+<div class="slider">
 
-      <img v-for= "image in images" :key="image.id" :src="image.url" class="d-block w-100" :alt="image.name" width="200px">
-    
       
-    <pre>
-      {{images}}
-    </pre>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="@/assets/bici1.jpg" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="@/assets/bici4.jpg" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="@/assets/bici3.jpg" class="d-block w-100" alt="">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
     
 
 </div>
@@ -25,7 +41,7 @@ export default {
   },
   setup(){
     let texto= "AQUÍ VA EL SLIDER"
-    const images= ref([
+  /*  const images= ref([
       {
       id:1,url: require('../assets/bici1.jpg'), name: 'foto1',
       },
@@ -39,7 +55,7 @@ export default {
       return {
         texto,
         images
-      }
+      }*/
   }
  
 
@@ -47,6 +63,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.src{
+    width:10%; 
+    height: auto; 
+}
 
 </style>>
 
