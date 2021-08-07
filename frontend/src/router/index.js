@@ -8,6 +8,9 @@ import Rutas from '../views/Rutas.vue'
 import Comprar from '../views/Comprar.vue'
 import Recuerdos from '../views/Recuerdos.vue'
 import Storage from '../views/Storage.vue'
+import Prueba from '../views/Prueba.vue'
+
+
 
 
 const routes = [
@@ -56,7 +59,11 @@ const routes = [
     name: 'storage',
     component: Storage
   }, 
-  
+  {
+    path: '/prueba',
+    name: 'prueba',
+    component: Prueba
+  },
   
 ]
 

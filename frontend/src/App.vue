@@ -28,6 +28,7 @@
           <a class="nav-link"><router-link to="/storage">Storage</router-link></a>
         </li>
       </ul>
+       <router-link to="/prueba">Prueba</router-link> |
     </div>
        <Button/>
   </div>
