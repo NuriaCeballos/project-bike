@@ -1,11 +1,6 @@
 <template>
-
-
-
-  
-  <div class= "container">
-      
-      <div class= "col-8 md-6 justify-content-center texthome">
+      <div class= "container">
+       <div class= "col-8 md-6 justify-content-center texthome">
           <h1>Título del tema</h1>
           <p>Aquí va el texto presentación la webEs un hecho
             establecido hace demasiado tiempo que un lector 
@@ -36,8 +31,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .texthome{
+    margin: 30px;
+    padding: 80px;
+    border-radius: 10px;
     background: rgb(238, 238, 182);
     max-width: 600px;
 }
