@@ -9,6 +9,7 @@ import Comprar from '../views/Comprar.vue'
 import Recuerdos from '../views/Recuerdos.vue'
 import Storage from '../views/Storage.vue'
 import Prueba from '../views/Prueba.vue'
+import Formcard from '../views/Formcard.vue'
 
 
 
@@ -63,6 +64,11 @@ const routes = [
     path: '/prueba',
     name: 'prueba',
     component: Prueba
+  },
+  {
+    path: '/formcard',
+    name: 'formcard',
+    component: Formcard
   },
   
 ]

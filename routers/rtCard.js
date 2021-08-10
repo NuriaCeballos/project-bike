@@ -7,4 +7,9 @@ rtCard.get ('/rutas',(req,res)=>{
     res.render('rutas')
 })
 
+rtCard.get('/guardar',(req,res)=>{
+    console.log(req.body)
+    res.json({respuesta:'ok'})
+})
+
 module.exports=rtCard

@@ -9,7 +9,7 @@ export default {
     name:"Button",
     setup(){
         const enviar = () => {
-            return window.open("http://localhost:3001/card/rutas")
+            return window.open("http://localhost:8080/formcard")
             
         }
         return{
