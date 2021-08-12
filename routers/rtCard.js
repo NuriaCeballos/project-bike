@@ -7,7 +7,7 @@ rtCard.get ('/rutas',(req,res)=>{
     res.render('rutas')
 })
 
-rtCard.get('/guardar',(req,res)=>{
+rtCard.post('/guardar',(req,res)=>{
     console.log(req.body)
     res.json({respuesta:'ok'})
 })

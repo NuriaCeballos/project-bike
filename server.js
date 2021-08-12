@@ -8,12 +8,14 @@ const app = express()
 const rtCard= require ('./routers/rtCard')
 const rtAdmin=require('./routers/rtAdmin')
 let exphbs  = require('express-handlebars')
+const cors = require ('cors')
+
 
 
 // middlewares 
 app.use(express.static(__dirname +'/public'))
 app.use (express.urlencoded({extended:true}))// lee los datos enviados por un formulario
-
+app.use (cors())
 // app.use(cookieParser('mi ultra secreto'))
 // app.use(session({
 //     secret:'mi ultra secreto',
