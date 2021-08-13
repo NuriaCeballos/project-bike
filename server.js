@@ -16,6 +16,7 @@ const cors = require ('cors')
 app.use(express.static(__dirname +'/public'))
 app.use (express.urlencoded({extended:true}))// lee los datos enviados por un formulario
 app.use (cors())
+app.use(express.json())
 // app.use(cookieParser('mi ultra secreto'))
 // app.use(session({
 //     secret:'mi ultra secreto',
