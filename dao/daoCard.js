@@ -8,7 +8,7 @@ daoCard.guardar = function save (datos){
         let newcard = new Card(datos)
         newcard.save()
         resolved(newcard)
-
+        console.log(newcard)
     })
 
 }

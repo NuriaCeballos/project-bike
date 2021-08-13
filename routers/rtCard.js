@@ -1,6 +1,7 @@
 const express = require ('express')
 const rtCard = express.Router()
-const Card = ('/models/Card')
+const Card = require('../models/Card')
+const daoCard = require('../dao/daoCard')
 
 
 rtCard.get ('/rutas',(req,res)=>{
@@ -12,8 +13,11 @@ rtCard.get('/guardar',(req,res)=>{
 })
 
 rtCard.post('/guardar',(req,res)=>{
-    console.log(req.body)
-    res.json({respuesta:'ok'})
+    daoCard.guardar(req.body)
+    .then(resp=>{
+        console.log ("datos guardados")
+    })
+    
 })
 
 module.exports=rtCard
