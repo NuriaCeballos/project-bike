@@ -10,7 +10,9 @@
         <!-- <input name="ranking" type="number" placeholder="ranking"><br> es otro componente-->
         <div> <input v-model="nickname" type="text" placeholder="Nickname"></div>
         <div>
-        <img class="photo" src="@/assets/bici8.jpg">
+        <!-- <input type="file" accept=".jpg" @click="photoUp" name="photo"> -->
+
+        
         </div>
         <div><textarea v-model="description" ></textarea></div> 
         <!-- <textarea name="comentarios"></textarea>  es otro componente-->
@@ -20,29 +22,32 @@
 </template>
 
 <script>
+
 import {ref} from 'vue'
 export default {
     name:"Formcard",
     props:{}, 
     setup(){
-         let temaseleccionado=ref("")
+        let photo=ref("")
+        let temaseleccionado=ref("")
         let nickname= ref("")
-        let photo= ref("")
+        let file=ref("")
         let description= ref("")
-
         let temas =[
             {id:1,tema:"Rutas"},
             {id:2,tema:"Comprar y vender"},
             {id:3,tema:"Recuerdos Bike"}]
-
+        
+           
         
             function enviar(){
-            console.log(temaseleccionado.value,nickname.value,description.value)
+            console.log(temaseleccionado.value,nickname.value,photo.value,description.value)
             fetch('http://localhost:3001/card/guardar',{
                 method: 'POST',
                 body: JSON.stringify({
-                    title:temaseleccionado.value,
+                    title: temaseleccionado.value,
                     nickname: nickname.value,
+                    photo: photo.value,
                     description: description.value   
 
                 }),
@@ -54,8 +59,8 @@ export default {
 
         
         return{
-            temas,nickname,photo,description,temaseleccionado,enviar
-            
+            temas,nickname,description,temaseleccionado,enviar,file,photo
+            // photoUp
         }
 
     }   

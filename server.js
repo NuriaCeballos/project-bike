@@ -9,7 +9,7 @@ const rtCard= require ('./routers/rtCard')
 const rtAdmin=require('./routers/rtAdmin')
 let exphbs  = require('express-handlebars')
 const cors = require ('cors')
-
+const fileUpload = require('express-fileupload')
 
 
 // middlewares 

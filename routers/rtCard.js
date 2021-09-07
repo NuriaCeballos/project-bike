@@ -13,11 +13,10 @@ rtCard.get('/guardar',(req,res)=>{
 })
 
 rtCard.post('/guardar',(req,res)=>{
-    daoCard.guardar(req.body)
-    .then(resp=>{
-        console.log ("datos guardados")
+   daoCard.guardar(req.body)
+   console.log(req.body)
+    
     })
     
-})
 
 module.exports=rtCard
